@@ -100,6 +100,8 @@ def removingElements():
         else:
             dateMonthWise.remove("PKST")
         a += 1
+        if len(fileNames) == 1:
+            break
 
         # Removing unnecessary element from month file
 
